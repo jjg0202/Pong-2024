@@ -68,7 +68,7 @@ body {
 
 .paddle {
   top: 0;
-  width: 35px;
+  width: 105px;
   position: absolute;
 }
 
