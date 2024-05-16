@@ -60,7 +60,7 @@ export class Paddle {
     hasHit,
     htmlElement
   ) {
-    this.size = { x: 1, y: 75 }; //default paddle size
+    this.size = { x: 10, y: 75 }; //default paddle size
     this.position = { x: 50, y: 50 }; //paddle position, (Y is top)
     this.oldPosition = { x: 50, y: 50 }; //paddle position 1 frame ago
     this.velocity = { x: 0, y: 0 }; //calculated velocity
