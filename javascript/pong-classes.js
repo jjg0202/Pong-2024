@@ -36,7 +36,7 @@ export class Ball {
     acceleration,
     initial,
     intertialTransfer,
-    htmlElement
+    Ball-Brain.png
   ) {
     this.size = { x: 20, y: 20 }; // default ball size
     this.position = { x: 50, y: 50 }; // default ball position
@@ -45,7 +45,7 @@ export class Ball {
     this.initial = { x: 2, y: 0 }; //speed reset on point score
     this.maximum = { x: 2, y: 1 }; //maximum speed
     this.inertialTransfer = 0.25; //multiplier for velocity.y transfer from paddle
-    this.htmlElement = null; //element on HTML page
+    this.Ball-Brain.png = null; //element on HTML page
   }
 }
 
