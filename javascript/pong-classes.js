@@ -15,12 +15,12 @@ export class Game {
     computerDifficulty,
     computerDifficultySpeed
   ) {
-    this.size = { x: 1200, y: 750 }; //container for entire game
+    this.size = { x: 1200, y: 1050 }; //container for entire game
     this.padding = { x: 10, y: 10 }; //white space inside game border
     this.htmlElement = null; //element on HTML page
     this.mousePosition = { x: 0, y: 0 };
     this.mute = false; //default mute state
-    this.volume = 6; //default volume output 0-10
+    this.volume = 7; //default volume output 0-10
     this.computerState = 0; //default computer control amount
     this.computerDifficulty = ["off", "easy", "medium", "hard", "impossible"]; //sets the computer difficulty names
     this.computerDifficultySpeed = [0, 2, 4, 8, 100]; //sets the computer difficulty speeds
