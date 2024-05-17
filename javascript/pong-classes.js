@@ -44,7 +44,7 @@ export class Ball {
     this.acceleration = 0; //X speed multipler on successful block
     this.initial = { x: 2, y: 0 }; //speed reset on point score
     this.maximum = { x: 2, y: 1 }; //maximum speed
-    this.inertialTransfer = 0.25; //multiplier for velocity.y transfer from paddle
+    this.inertialTransfer = 0.75; //multiplier for velocity.y transfer from paddle
     this.htmlElement = null; //element on HTML page
   }
 }
@@ -60,7 +60,7 @@ export class Paddle {
     hasHit,
     htmlElement
   ) {
-    this.size = { x: 1, y: 2 }; //default paddle size
+    this.size = { x: 25, y: 225 }; //default paddle size
     this.position = { x: 50, y: 50 }; //paddle position, (Y is top)
     this.oldPosition = { x: 50, y: 50 }; //paddle position 1 frame ago
     this.velocity = { x: 0, y: 0 }; //calculated velocity
