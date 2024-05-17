@@ -15,7 +15,7 @@ export class Game {
     computerDifficulty,
     computerDifficultySpeed
   ) {
-    this.size = { x: 600, y: 500 }; //container for entire game
+    this.size = { x: 1200, y: 1000 }; //container for entire game
     this.padding = { x: 10, y: 10 }; //white space inside game border
     this.htmlElement = null; //element on HTML page
     this.mousePosition = { x: 0, y: 0 };
@@ -41,10 +41,10 @@ export class Ball {
     this.size = { x: 20, y: 20 }; // default ball size
     this.position = { x: 50, y: 50 }; // default ball position
     this.direction = { x: 0, y: 0 }; //Ball speed when game starts
-    this.acceleration = 0; //X speed multipler on successful block
+    this.acceleration = 1; //X speed multipler on successful block
     this.initial = { x: 2, y: 0 }; //speed reset on point score
     this.maximum = { x: 2, y: 1 }; //maximum speed
-    this.inertialTransfer = 1.50; //multiplier for velocity.y transfer from paddle
+    this.inertialTransfer = 2.50; //multiplier for velocity.y transfer from paddle
     this.htmlElement = null; //element on HTML page
   }
 }
